@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+	SCM1001 /* SweetCritterMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0001 /* SweetCritterMatchApp.swift */; };
+	SCM1002 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0002 /* GameView.swift */; };
+	SCM1003 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0003 /* GameViewModel.swift */; };
+	SCM1004 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0004 /* Tile.swift */; };
+	SCM1005 /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0005 /* GameLevel.swift */; };
+	SCM1006 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0006 /* TopBarView.swift */; };
+	SCM1007 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0007 /* BoardView.swift */; };
+	SCM1008 /* BottomControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0008 /* BottomControlsView.swift */; };
+	SCM1009 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0009 /* AvatarView.swift */; };
+	SCM1010 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0010 /* ProgressBarView.swift */; };
+	SCM1011 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0011 /* BackgroundView.swift */; };
+	SCM1012 /* PauseMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0012 /* PauseMenuView.swift */; };
+	SCM1013 /* LevelCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0013 /* LevelCompleteView.swift */; };
+	SCM1014 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0014 /* GameOverView.swift */; };
+	SCM1015 /* OverlayComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0015 /* OverlayComponents.swift */; };
+	SCM1016 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SCM0016 /* SoundManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	SCM0001 /* SweetCritterMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetCritterMatchApp.swift; sourceTree = "<group>"; };
+	SCM0002 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+	SCM0003 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+	SCM0004 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Tile.swift; sourceTree = "<group>"; };
+	SCM0005 /* GameLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/GameLevel.swift; sourceTree = "<group>"; };
+	SCM0006 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/TopBarView.swift; sourceTree = "<group>"; };
+	SCM0007 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/BoardView.swift; sourceTree = "<group>"; };
+	SCM0008 /* BottomControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/BottomControlsView.swift; sourceTree = "<group>"; };
+	SCM0009 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/AvatarView.swift; sourceTree = "<group>"; };
+	SCM0010 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/ProgressBarView.swift; sourceTree = "<group>"; };
+	SCM0011 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/BackgroundView.swift; sourceTree = "<group>"; };
+	SCM0012 /* PauseMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/Overlays/PauseMenuView.swift; sourceTree = "<group>"; };
+	SCM0013 /* LevelCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/Overlays/LevelCompleteView.swift; sourceTree = "<group>"; };
+	SCM0014 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/Overlays/GameOverView.swift; sourceTree = "<group>"; };
+	SCM0015 /* OverlayComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI/Overlays/OverlayComponents.swift; sourceTree = "<group>"; };
+	SCM0016 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/SoundManager.swift; sourceTree = "<group>"; };
+	SCM0017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+	SCM00A0 /* SweetCritterMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetCritterMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	SCM2000 /* Frameworks */ = {
+		isa = PBXFrameworksBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	SCM3000 = {
+		isa = PBXGroup;
+		children = (
+			SCM3001 /* SweetCritterMatch */,
+			SCM3005 /* Products */
+		);
+		sourceTree = "<group>";
+	};
+	SCM3001 /* SweetCritterMatch */ = {
+		isa = PBXGroup;
+		children = (
+			SCM0001 /* SweetCritterMatchApp.swift */,
+			SCM0002 /* GameView.swift */,
+			SCM0003 /* GameViewModel.swift */,
+			SCM3002 /* Models */,
+			SCM3003 /* UI */,
+			SCM3004 /* Services */,
+			SCM0017 /* Info.plist */
+		);
+		path = SweetCritterMatch;
+		sourceTree = "<group>";
+	};
+	SCM3002 /* Models */ = {
+		isa = PBXGroup;
+		children = (
+			SCM0004 /* Tile.swift */,
+			SCM0005 /* GameLevel.swift */
+		);
+		path = Models;
+		sourceTree = "<group>";
+	};
+	SCM3003 /* UI */ = {
+		isa = PBXGroup;
+		children = (
+			SCM0006 /* TopBarView.swift */,
+			SCM0007 /* BoardView.swift */,
+			SCM0008 /* BottomControlsView.swift */,
+			SCM0009 /* AvatarView.swift */,
+			SCM0010 /* ProgressBarView.swift */,
+			SCM0011 /* BackgroundView.swift */,
+			SCM3006 /* Overlays */
+		);
+		path = UI;
+		sourceTree = "<group>";
+	};
+	SCM3004 /* Services */ = {
+		isa = PBXGroup;
+		children = (
+			SCM0016 /* SoundManager.swift */
+		);
+		path = Services;
+		sourceTree = "<group>";
+	};
+	SCM3005 /* Products */ = {
+		isa = PBXGroup;
+		children = (
+			SCM00A0 /* SweetCritterMatch.app */
+		);
+		name = Products;
+		sourceTree = "<group>";
+	};
+	SCM3006 /* Overlays */ = {
+		isa = PBXGroup;
+		children = (
+			SCM0012 /* PauseMenuView.swift */,
+			SCM0013 /* LevelCompleteView.swift */,
+			SCM0014 /* GameOverView.swift */,
+			SCM0015 /* OverlayComponents.swift */
+		);
+		path = Overlays;
+		sourceTree = "<group>";
+	};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	SCM4000 /* SweetCritterMatch */ = {
+		isa = PBXNativeTarget;
+		buildConfigurationList = SCM6001 /* Build configuration list for PBXNativeTarget "SweetCritterMatch" */;
+		buildPhases = (
+			SCM5000 /* Sources */,
+			SCM2000 /* Frameworks */,
+			SCM5001 /* Resources */
+		);
+		buildRules = (
+		);
+		dependencies = (
+		);
+		name = SweetCritterMatch;
+		productName = SweetCritterMatch;
+		productReference = SCM00A0 /* SweetCritterMatch.app */;
+		productType = "com.apple.product-type.application";
+	};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	SCM4001 /* Project object */ = {
+		isa = PBXProject;
+		attributes = {
+			BuildIndependentTargetsInParallel = YES;
+			LastSwiftUpdateCheck = 1500;
+			LastUpgradeCheck = 1500;
+			ORGANIZATIONNAME = "";
+		};
+		buildConfigurationList = SCM6000 /* Build configuration list for PBXProject "SweetCritterMatch" */;
+		compatibilityVersion = "Xcode 14.0";
+		developmentRegion = en;
+		hasScannedForEncodings = 0;
+		knownRegions = (
+			en,
+			Base,
+		);
+		mainGroup = SCM3000;
+		productRefGroup = SCM3005 /* Products */;
+		projectDirPath = "";
+		projectRoot = "";
+		targets = (
+			SCM4000 /* SweetCritterMatch */
+		);
+	};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+	SCM5001 /* Resources */ = {
+		isa = PBXResourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+	SCM5000 /* Sources */ = {
+		isa = PBXSourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			SCM1016 /* SoundManager.swift in Sources */,
+			SCM1009 /* AvatarView.swift in Sources */,
+			SCM1004 /* Tile.swift in Sources */,
+			SCM1011 /* BackgroundView.swift in Sources */,
+			SCM1014 /* GameOverView.swift in Sources */,
+			SCM1003 /* GameViewModel.swift in Sources */,
+			SCM1006 /* TopBarView.swift in Sources */,
+			SCM1002 /* GameView.swift in Sources */,
+			SCM1007 /* BoardView.swift in Sources */,
+			SCM1013 /* LevelCompleteView.swift in Sources */,
+			SCM1010 /* ProgressBarView.swift in Sources */,
+			SCM1005 /* GameLevel.swift in Sources */,
+			SCM1015 /* OverlayComponents.swift in Sources */,
+			SCM1008 /* BottomControlsView.swift in Sources */,
+			SCM1012 /* PauseMenuView.swift in Sources */,
+			SCM1001 /* SweetCritterMatchApp.swift in Sources */
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+	SCM6002 /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+			CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+			CLANG_WARN_BOOL_CONVERSION = YES;
+			CLANG_WARN_COMMA = YES;
+			CLANG_WARN_CONSTANT_CONVERSION = YES;
+			CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+			CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_EMPTY_BODY = YES;
+			CLANG_WARN_ENUM_CONVERSION = YES;
+			CLANG_WARN_INFINITE_RECURSION = YES;
+			CLANG_WARN_INT_CONVERSION = YES;
+			CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+			CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+			CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+			CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+			CLANG_WARN_STRICT_PROTOTYPES = YES;
+			CLANG_WARN_SUSPICIOUS_MOVE = YES;
+			CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+			CLANG_WARN_UNREACHABLE_CODE = YES;
+			CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			ENABLE_STRICT_OBJC_MSGSEND = YES;
+			ENABLE_TESTABILITY = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu11;
+			GCC_DYNAMIC_NO_PIC = NO;
+			GCC_NO_COMMON_BLOCKS = YES;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			GCC_PREPROCESSOR_DEFINITIONS = (
+				"DEBUG=1",
+				"$(inherited)",
+			);
+			GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+			GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+			GCC_WARN_UNDECLARED_SELECTOR = YES;
+			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+			GCC_WARN_UNUSED_FUNCTION = YES;
+			GCC_WARN_UNUSED_VARIABLE = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+			ONLY_ACTIVE_ARCH = YES;
+			SDKROOT = iphoneos;
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		};
+		name = Debug;
+	};
+	SCM6003 /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+			CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+			CLANG_WARN_BOOL_CONVERSION = YES;
+			CLANG_WARN_COMMA = YES;
+			CLANG_WARN_CONSTANT_CONVERSION = YES;
+			CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+			CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_EMPTY_BODY = YES;
+			CLANG_WARN_ENUM_CONVERSION = YES;
+			CLANG_WARN_INFINITE_RECURSION = YES;
+			CLANG_WARN_INT_CONVERSION = YES;
+			CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+			CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+			CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+			CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+			CLANG_WARN_STRICT_PROTOTYPES = YES;
+			CLANG_WARN_SUSPICIOUS_MOVE = YES;
+			CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+			CLANG_WARN_UNREACHABLE_CODE = YES;
+			CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			ENABLE_NS_ASSERTIONS = NO;
+			ENABLE_STRICT_OBJC_MSGSEND = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu11;
+			GCC_NO_COMMON_BLOCKS = YES;
+			GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+			GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+			GCC_WARN_UNDECLARED_SELECTOR = YES;
+			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+			GCC_WARN_UNUSED_FUNCTION = YES;
+			GCC_WARN_UNUSED_VARIABLE = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			MTL_ENABLE_DEBUG_INFO = NO;
+			SDKROOT = iphoneos;
+			SWIFT_COMPILATION_MODE = wholemodule;
+			SWIFT_OPTIMIZATION_LEVEL = "-O";
+		};
+		name = Release;
+	};
+	SCM6004 /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = "";
+			CODE_SIGN_IDENTITY = "Apple Development";
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = SweetCritterMatch/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/Frameworks",
+			);
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.SweetCritterMatch;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			SWIFT_EMIT_LOC_STRINGS = NO;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		};
+		name = Debug;
+	};
+	SCM6005 /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = "";
+			CODE_SIGN_IDENTITY = "Apple Development";
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = SweetCritterMatch/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/Frameworks",
+			);
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.SweetCritterMatch;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			SWIFT_EMIT_LOC_STRINGS = NO;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = 1;
+		};
+		name = Release;
+	};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+	SCM6000 /* Build configuration list for PBXProject "SweetCritterMatch" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			SCM6002 /* Debug */,
+			SCM6003 /* Release */
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+	SCM6001 /* Build configuration list for PBXNativeTarget "SweetCritterMatch" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			SCM6004 /* Debug */,
+			SCM6005 /* Release */
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = SCM4001 /* Project object */;
+}
